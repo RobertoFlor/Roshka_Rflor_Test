@@ -95,9 +95,13 @@ Compilar y ejecutar con Maven:
 🌐 Acceso y Documentación
 
 Servicio	URL
+
 Swagger UI	http://localhost:8080/swagger-ui.html
+
 OpenAPI JSON	http://localhost:8080/v3/api-docs
+
 Actuator Health	http://localhost:8080/actuator/health
+
 
 ---
 🔑 Autenticación JWT
@@ -133,11 +137,17 @@ Devuelve la información del usuario autenticado.
 📋 Endpoints CRUD
 🟢 Tareas (/tasks)
 Método	Endpoint	Descripción
+
 POST	/tasks	Crear nueva tarea
+
 GET	/tasks	Listar tareas (paginadas)
+
 GET	/tasks/{id}	Obtener tarea por ID
+
 PUT	/tasks/{id}	Actualizar tarea
+
 DELETE	/tasks/{id}	Eliminar tarea
+
 
 Ejemplo de creación:
 
@@ -161,11 +171,17 @@ Respuesta esperada:
 
 🔵 Subtareas (/tasks/{id}/subtasks)
 Método	Endpoint	Descripción
+
 POST	/tasks/{id}/subtasks	Crear subtarea
+
 GET	/tasks/{id}/subtasks	Listar subtareas (paginadas)
+
 GET	/tasks/{id}/subtasks/{subId}	Obtener subtarea
+
 PUT	/tasks/{id}/subtasks/{subId}	Actualizar subtarea
+
 DELETE	/tasks/{id}/subtasks/{subId}	Eliminar subtarea
+
 📄 Respuesta con Paginación
 
 Todas las listas devuelven datos en este formato:
@@ -192,13 +208,18 @@ Query params soportados:
 
 🩺 Actuator Endpoints
 Endpoint	Descripción
+
 /actuator/health	Estado de la aplicación
+
 /actuator/metrics	Métricas de la app
+
 /actuator/info	Información de compilación
 
 👥 Usuarios Simulados
 Usuario	Password	Rol
+
 admin	1234	ADMIN
+
 user	1234	USER
 
 👥 Usuarios Simulados (en memoria)
