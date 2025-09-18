@@ -11,12 +11,6 @@ Ideal como punto de partida para microservicios REST seguros en Spring Boot.
 
 ## 🏗️ Arquitectura
           ┌────────────────────┐
-          │     Frontend       │
-          │ (Postman/React/etc)│
-          └─────────┬──────────┘
-                    │
-                    ▼
-          ┌────────────────────┐
           │  Spring Boot API   │
           │   (Tasks API)      │
           │                    │
