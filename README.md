@@ -64,9 +64,13 @@ cd tasks-api
 Actualmente, toda la configuración se encuentra en src/main/resources/application.properties:
 
 spring.datasource.url=jdbc:postgresql://localhost:5434/tasksdb
+
 spring.datasource.username=postgres
+
 spring.datasource.password=postgres
+
 spring.jpa.hibernate.ddl-auto=update
+
 spring.jpa.show-sql=true
 
 jwt.secret=super_secreto
